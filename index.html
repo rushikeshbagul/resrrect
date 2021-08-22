@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="image/Screenshot_2021-07-06_112454-removebg-preview.png" />
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Quicksand"}
+body {font-family: "Quicksand"}
+a {
+    text-decoration: none !important;
+}
+</style>
+<body class="w3-light-grey">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block  w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>RESURRECT</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#" class="w3-bar-item w3-button">Course</a>
+    <a href="#" class="w3-bar-item w3-button">Course</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Course <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Course</a>
+      <a href="#" class="w3-bar-item w3-button">Course</a>
+      <a href="#" class="w3-bar-item w3-button">Course</a>
+      <a href="#" class="w3-bar-item w3-button">Course</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-medium">
+  <div class="w3-bar-item w3-padding-24 w3-wide">RESURRECT</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:63px"></div>
+  <br>
+  <div class="w3-panel w3-center w3-opacity" style="padding:28px 16px">
+    <h1 class="w3-xlarge">RESURRECT</h1>
+    <h1>gives you path for free learning</h1>
+  <div class="w3-panel w3-center w3-opacity">
+  <div class="w3-padding-16">
+    <div class="w3-bar w3-border">
+      <a href="index.html" class="w3-bar-item w3-button w3-hide-small">Home</a>
+      <a href="free_courses.html" class="w3-bar-item w3-button">Courses</a>
+      <a href="jobs.html" class="w3-bar-item w3-button">Jobs</a>
+      <a href="Careers.html" class="w3-bar-item w3-button">Career's</a>
+    </div>
+  </div>
+
+</div>  
+
+</div>
+  
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+  
+<!-- Blog entry -->
+<div class="w3-container w3-white w3-margin w3-padding-large">
+  <div class="w3-center"><a href="https://www.udemy.com/course/react-native-expo-for-multiplatform-ios-android-mobile-app-development/?ranMID=39197&ranEAID=tHnUyAHsRvI&ranSiteID=tHnUyAHsRvI-5bTpG_ZtnIUddj0JzMiB6g&LSNPUBID=tHnUyAHsRvI&utm_source=aff-campaign&utm_medium=udemyads&couponCode=E98FC69744B0A1A08250">
+    <h3>React native Expo for multiplatform mobile app development</h3>
+    <h5><span class="w3-opacity">july 2, 2021</span></h5>
+  </div>
+  <div class="w3-justify">
+    <img src="image/udemy.svg" style="width:100%" class="w3-padding-16">
+    <p><strong>React native</strong> Did you tire of learning JAVA, Swift, Kotlin different programming languages?
+      Will it be much better if just learn one language and then can build for both Android and iOS?
+      React Native is what you need!!</p>
+    </div></a>
+</div>
+<hr>
+      
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-youtube w3-hover-opacity"></i>
+          <i class="fa fa-telegram w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+
+</script>
+
+</body>
+</html>
